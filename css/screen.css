@@ -209,43 +209,6 @@ body{
   background-color: grey;
   margin: auto;
 }
-#content{
-  font-family: 'Roboto Mono', monospace;
-  margin: auto;
-  text-align: center;
-}
-h1{
-  font-family: 'Anton', sans-serif;
-  font-size: 2.779em;
-  padding: .5em;
-}
-p{
-  width: 60%;
-  font-size: 1.383em;
-  line-height: 120%;
-  margin: auto;
-}
-#input-email{
-  padding: 1em;
-}
-#input-age-verification{
-  padding: .3em;
-  width: 35%;
-  margin: auto;
-}
-#age-verification{
-  float: left;
-}
-#input-submit{
-  padding: .5em;
-}
-#submit{
-  background-color: #494949;
-  color: white;
-  height: 50px;
-  width: 100px;
-  font: bold 15px arial, sans-serif;
-}
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
   body{
@@ -254,6 +217,45 @@ p{
       margin: auto;
       padding: 2em;
   }
+  
+  #content{
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.779em;
+    padding: .5em;
+  }
+  p{
+    width: 60%;
+    font-size: 1.383em;
+    line-height: 120%;
+    margin: auto;
+  }
+  #input-email{
+    padding: 1em;
+  }
+  #input-age-verification{
+    padding: .3em;
+    width: 35%;
+    margin: auto;
+  }
+  #age-verification{
+    float: left;
+  }
+  #input-submit{
+    padding: .5em;
+  }
+  #submit{
+    background-color: #494949;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+  }
+  
 }
 
 

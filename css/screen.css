@@ -191,6 +191,7 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -203,6 +204,61 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+/*code for mobile*/
+body{
+  background-color: grey;
+  width: 95%;
+}
+
+#content{
+  font-family: 'Roboto Mono', monospace;
+  margin: auto;
+}
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 2.779em;
+}
+
+/*
+label{
+  background-color: darkseagreen;
+}
+.formelement{
+  width: 85%;
+  margin-top: 10em;
+  margin: auto;
+}
+
+#submitform{
+  width: 100%;
+  margin-top: 5em;
+}
+
+*/
+/*code for desktop*/
+@media only screen and (min-width: 768px) {
+  body{
+      background-color: grey;
+      width: 960px;
+      margin: auto;
+  }
+  
+  /*
+  label{
+      background-color: darkseagreen;
+  }
+  .formelement{
+      margin-top: 5em;
+      width: 50%;
+  }
+  #submitform{
+      width: 100%;
+  
+  }
+  */
+}
+
+
 
 /* ===== MODULAR STYLES ===== */
 

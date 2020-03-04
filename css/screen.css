@@ -208,15 +208,19 @@ label {
 body{
   background-color: grey;
   width: 95%;
+  margin: auto;
+  padding: .5em;
 }
 
 #content{
   font-family: 'Roboto Mono', monospace;
   margin: auto;
+  text-align: center;
 }
 h1{
   font-family: 'Anton', sans-serif;
   font-size: 2.779em;
+  padding: .5em;
 }
 
 /*
@@ -241,6 +245,7 @@ label{
       background-color: grey;
       width: 960px;
       margin: auto;
+      padding: 3em;
   }
   
   /*

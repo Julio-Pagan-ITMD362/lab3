@@ -240,6 +240,13 @@ p{
 #input-submit{
   padding: .5em;
 }
+#submit{
+  background-color: #494949;
+  color: white;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+}
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
   body{

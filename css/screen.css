@@ -207,71 +207,47 @@ label {
 /*code for mobile*/
 body{
   background-color: grey;
-  width: 95%;
-  margin: auto;
-  padding: .5em;
-}
-
-p{
-  width: 60%;
-  font-size: 1.383em;
-  line-height: 120%;
+  width: 100%;
   margin: auto;
 }
-
 #content{
   font-family: 'Roboto Mono', monospace;
   margin: auto;
   text-align: center;
-}
-
-#input-email{
-  padding: .3em;
 }
 h1{
   font-family: 'Anton', sans-serif;
   font-size: 2.779em;
   padding: .5em;
 }
-
-/*
-label{
-  background-color: darkseagreen;
-}
-.formelement{
-  width: 85%;
-  margin-top: 10em;
+p{
+  width: 60%;
+  font-size: 1.383em;
+  line-height: 120%;
   margin: auto;
 }
-
-#submitform{
-  width: 100%;
-  margin-top: 5em;
+#input-email{
+  padding: 1em;
 }
-
-*/
+#input-age-verification{
+  padding: .3em;
+  width: 35%;
+  margin: auto;
+}
+#age-verification{
+  float: left;
+}
+#input-submit{
+  padding: .5em;
+}
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
   body{
       background-color: grey;
       width: 960px;
       margin: auto;
-      padding: 3em;
+      padding: 2em;
   }
-  
-  /*
-  label{
-      background-color: darkseagreen;
-  }
-  .formelement{
-      margin-top: 5em;
-      width: 50%;
-  }
-  #submitform{
-      width: 100%;
-  
-  }
-  */
 }
 
 

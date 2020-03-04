@@ -212,10 +212,21 @@ body{
   padding: .5em;
 }
 
+p{
+  width: 60%;
+  font-size: 1.383em;
+  line-height: 120%;
+  margin: auto;
+}
+
 #content{
   font-family: 'Roboto Mono', monospace;
   margin: auto;
   text-align: center;
+}
+
+#input-email{
+  padding: .3em;
 }
 h1{
   font-family: 'Anton', sans-serif;
